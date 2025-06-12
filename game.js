@@ -25,7 +25,7 @@ let ComputerScore = 0;
 
 function playRound(humanChoice, computerChoice) {
     const p = document.querySelector("#p");
-    const div = document.querySelector(".body");
+    const div = document.querySelector(".b");
     const pscore = document.querySelector("#ps");
     const cscore = document.querySelector("#cs");
     if (humanChoice == computerChoice) {
