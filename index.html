@@ -5,20 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="game.js" async></script> 
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>ROCK PAPER SCISSORS</h1>
-    <h3>First to 5 wins!</h3>
-    <button id="rock">rock</button>
-    <button id="paper">paper</button>
-    <button id="scissors">scissors</button>
-    <div>
-        
-        <p id="ps">player score: 0</p>
-        <p id="cs">computer score: 0</p>
-
-        <p id="p"></p>
+    <div class="header">
+        <h1>ROCK PAPER SCISSORS</h1>
+        <h3>First to 5 wins!</h3>
     </div>
-   
+    <div class="body">   
+        <p id="ps">player score: 0</p>
+        <p id="p"></p>  
+        <p id="cs">computer score: 0</p>
+        
+    </div>
+    <div class="icons">
+        <button id="rock"><img src="rock.png" alt="rock" height="100px" width="auto"></button>
+        <button id="paper"><img src="paper.jpg" alt="paper" height="100px" width="auto"></button>
+        <button id="scissors"><img src="scissors.png" alt="scissors" height="100px" width="auto"></button>
+    </div>
+
 </body>
 </html>
